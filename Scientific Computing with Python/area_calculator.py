@@ -143,3 +143,5 @@ print(rect.get_amount_inside(sq))
 
 print(Rectangle(4,8).get_amount_inside(Rectangle(3, 6)))
 print(Rectangle(2,3).get_amount_inside(Rectangle(3, 6)))
+
+print("teste")
