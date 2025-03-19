@@ -1,0 +1,80 @@
+# Resumo dos Exercícios de Programação em Python
+
+## 1. Manipulação de Arquivos e Diretórios
+- Uso do módulo `os` para listar arquivos em um diretório e abrir arquivos programaticamente.
+- Leitura de arquivos com `open()` especificando a codificação `utf-8`.
+- Escrita em arquivos utilizando `write()`, iterando sobre arquivos `.py` para mesclá-los em um único arquivo agregado.
+- Manipulação de strings para formatação dinâmica de conteúdo dentro dos arquivos.
+
+## 2. Programação Orientada a Objetos: Classes `Rectangle` e `Square`
+- Criação de uma classe `Rectangle` com atributos `width` e `height`.
+- Definição de métodos para calcular área (`get_area`), perímetro (`get_perimeter`) e diagonal (`get_diagonal`).
+- Representação da classe como string (`__str__`).
+- Implementação da classe `Square` como subclasse de `Rectangle`, reaproveitando código através da herança.
+- Redefinição de métodos na subclasse para ajuste específico de comportamento (`set_side`).
+
+## 3. Formatação de Cálculos Aritméticos
+- Uso de manipulação de strings e alinhamento para exibir operações matemáticas de forma estruturada.
+- Validação de entrada para limitar a quantidade de expressões a cinco.
+- Uso de dicionário para mapeamento dinâmico de operadores (`+`, `-`).
+
+## 4. Implementação de uma Árvore Binária de Busca (BST)
+- Criação da classe `BinarySearchTree` com operações de inserção, busca e remoção de nós.
+- Implementação de um percorrimento em ordem (`inorder_traversal`) para listar elementos ordenados.
+
+## 5. Aplicativo de Orçamento
+- Definição da classe `Category` para representar diferentes categorias de orçamento.
+- Registro de transações em uma lista (`ledger`).
+- Implementação de métodos para depósitos, retiradas e transferências entre categorias.
+
+## 6. Cifra de César
+- Implementação de um algoritmo de cifra de substituição.
+- Manipulação de strings para deslocamento de caracteres com base em um índice dinâmico.
+
+## 7. Resolvedor de Equações
+- Uso de classes abstratas com `ABC` para estruturar equações genéricas.
+- Implementação de equações lineares e quadráticas com métodos para resolução (`solve`).
+- Uso de `match-case` para manipulação de diferentes formatos de solução.
+
+## 8. Gerador de Senhas
+- Uso de expressões regulares (`re`) para verificar se a senha atende aos requisitos.
+- Geração segura de caracteres aleatórios com `secrets.choice()`.
+
+## 9. Rastreador de Despesas com Funções Lambda
+- Uso de `map()` e `filter()` para manipular coleções de dados.
+- Implementação de funções anônimas (`lambda`) para processamento eficiente.
+
+## 10. Compreensão de Listas
+- Conversão entre diferentes formatos de strings (camelCase para snake_case).
+- Uso de `join()` e compreensão de listas para manipulação eficiente de strings.
+
+## 11. Validação de Cartões com o Algoritmo de Luhn
+- Implementação do algoritmo de Luhn para verificação de validade de cartões.
+- Processamento de string e aplicação de operações matemáticas.
+
+## 12. Algoritmo de Merge Sort
+- Implementação do algoritmo de ordenação `merge sort` usando recursão.
+- Divisão e mesclagem de arrays ordenados para eficiência na ordenação.
+
+## 13. Calculadora de Probabilidades
+- Simulação de sorteios com o módulo `random`.
+- Uso de `copy.deepcopy()` para criar cópias independentes dos objetos.
+
+## 14. Cálculo de Trajetória de Projéteis
+- Implementação de fórmulas físicas para calcular trajetórias de lançamentos.
+- Manipulação de listas para armazenar coordenadas de movimento.
+
+## 15. Algoritmo de Caminho Mais Curto
+- Implementação de busca em grafos ponderados.
+- Uso de dicionários para representar grafos e calcular distâncias entre nós.
+
+# Resumo Geral
+Os exercícios abordaram conceitos fundamentais e avançados da programação em Python, incluindo:
+- **Estruturas de dados** (listas, dicionários, classes, árvores binárias).
+- **Manipulação de arquivos e strings**.
+- **Programação orientada a objetos** (herança, encapsulamento, abstração).
+- **Algoritmos matemáticos e estatísticos** (Luhn, merge sort, probabilidade, equações, trajetórias).
+- **Expressões regulares e segurança** (gerador de senhas).
+- **Uso de funções lambda e compreensão de listas** para manipulação eficiente de dados.
+
+Este material serve como referência detalhada para consultas futuras e reforço dos conceitos aprendidos.
